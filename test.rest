@@ -1,0 +1,10 @@
+POST http://localhost:4444/api/auth/verify-otp HTTP/1.1
+Content-Type: application/json
+
+{
+    "otp": "1689",
+    "hash": "9434e5ab853b4ed9c3e94f2c24ea2aedaefd811e77b68fedf941688d9389be76",
+    "email": "tlt.hp69@gmail.com",
+}
+
+###
